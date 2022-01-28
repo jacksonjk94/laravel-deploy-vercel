@@ -14,6 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* ========== USED :: START ========== */
+use App\Http\Controllers\TestAPIController;
+/* ========== USED :: END ========== */
+
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('/test', [TestAPIController::class, 'Test']);
+
+Route::get('/test-function', function(){
+    return response()->json(['teste'=>'teste']);
 });
