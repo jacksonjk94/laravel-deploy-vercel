@@ -1,3 +1,18 @@
+## Projeto
+
+Projeto Laravel v8.81.0, configurado para rodar na Hospedagem da [Vercel](https://vercel.com/)
+
+- **[Link do Projeto](https://example-laravel-at-vercel.vercel.app/)**
+
+## Dev
+
+* Para criar o ambiente, clone o Repositório e execute:
+~~~
+composer install
+composer dump-autoload
+php artisan serve
+~~~
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -64,19 +79,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Projeto
-
-Projeto Laravel v8.81.0, configurado para rodar na Hospedagem da [Vercel](https://vercel.com/)
-
-- **[Link do Projeto](https://example-laravel-at-vercel.vercel.app/)**
-- **composer install**
-
-## Dev
-
-* To create the environment, clone the repo then run:
-~~~
-composer install
-composer dump-autoload
-php artisan serve
-~~~
