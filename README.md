@@ -22,6 +22,13 @@ php artisan serve
 https://example-laravel-at-vercel.vercel.app/api/api/test
 ~~~
 
+## Environment Variables
+
+* Project / Settings / Environment Variables
+
+<img src="https://raw.githubusercontent.com/jacksonjk94/example-laravel-at-vercel/main/.env.config.png" width="100%">
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
