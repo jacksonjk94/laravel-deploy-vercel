@@ -13,10 +13,17 @@ composer install
 ~~~
 composer dump-autoload
 ~~~
+* Gerar novo arquivo .env:
+~~~
+cp .env.example .env
+~~~
+* Gerar novo "APP_KEY":
+~~~
+php artisan key:generate
+~~~
 ~~~
 php artisan serve
 ~~~
-
 * Rota da API do Laravel na Vercel:
 ~~~
 https://example-laravel-at-vercel.vercel.app/api/api/test
