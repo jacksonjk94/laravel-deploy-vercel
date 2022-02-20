@@ -13,14 +13,18 @@ composer install
 ~~~
 composer dump-autoload
 ~~~
+</br>
 * Gerar novo arquivo .env:
 ~~~
 cp .env.example .env
 ~~~
+</br>
 * Gerar novo "APP_KEY":
 ~~~
 php artisan key:generate
 ~~~
+</br>
+* Iniciar Servidor:
 ~~~
 php artisan serve
 ~~~
