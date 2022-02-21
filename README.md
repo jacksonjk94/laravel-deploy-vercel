@@ -2,7 +2,7 @@
 
 Projeto Laravel v8.81.0, configurado para rodar na Hospedagem da [Vercel](https://vercel.com/)
 
-- **[Link do Projeto](https://example-laravel-at-vercel.vercel.app/)**
+- **[Link do Projeto](https://laravel-deploy.vercel.app/)**
 
 ## Dev
 
@@ -30,14 +30,14 @@ php artisan serve
 ~~~
 * Rota da API do Laravel na Vercel:
 ~~~
-https://example-laravel-at-vercel.vercel.app/api/api/test
+https://laravel-deploy.vercel.app/api/api/test
 ~~~
 
 ## Environment Variables
 
 * Project / Settings / Environment Variables
 
-<img src="https://raw.githubusercontent.com/jacksonjk94/example-laravel-at-vercel/main/.env.config.png" width="100%">
+<img src="https://raw.githubusercontent.com/jacksonjk94/laravel-deploy-vercel/main/.env.config.png" width="100%">
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
